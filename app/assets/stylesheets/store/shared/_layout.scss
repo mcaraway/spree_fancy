@@ -2,6 +2,9 @@ body {
   border-top: 5px solid $c_blue;  
   padding-top: 10px;
   line-height: 24px;
+  @include background(image-url("store/dark-background.png") repeat-x ); 
+  background-color: #010006;
+  color: $body_text_color;
 }
 
 .page-wrapper {
