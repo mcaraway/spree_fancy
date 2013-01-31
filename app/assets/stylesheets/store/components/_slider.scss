@@ -94,7 +94,7 @@
     display: block;
     position: relative;
     display: block;
-    background-color: white;
+    background-color: $layout_background_color;
     border: 5px solid lighten($c_green, 15);
     padding: 20px;
     overflow: hidden;

@@ -2,8 +2,8 @@ body {
   border-top: 5px solid $c_blue;  
   padding-top: 10px;
   line-height: 24px;
-  @include background(image-url("store/dark-background.png") repeat-x ); 
-  background-color: #010006;
+  @include background(image-url("background-white-strip.png"));
+  background-color: $layout_background_color;
   color: $body_text_color;
 }
 
@@ -131,6 +131,7 @@ ul#products li {
   }
 
   .product-image {
+    background-color: $layout_background_color;
     border: none;
     min-height: 155px;
     padding: 0;
@@ -151,7 +152,10 @@ ul#products li {
 }
 
 #wrapper {
-  margin-top: 30px;  
+  margin-top: 15px; 
+  padding: 15px;
+  background-color: $layout_background_color; 
+  box-shadow: 0 0 5px #9bb3a1 ;
 }
 
 
