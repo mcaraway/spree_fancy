@@ -13,7 +13,7 @@ $(function(){
   setTimeout('$(".flash").fadeOut(1000)', 5000);
 
   // Home sliders
-  if($('#home-slider').length > 1) {
+  if($('#home-slider').length > 0) {
 
     var cached_carousel_1 = $('#featured-products .carousel').html();
     var cached_carousel_2 = $('#latest-products .carousel').html();
@@ -38,7 +38,8 @@ $(function(){
       auto: true,
       autoHover: true,
       controls: false,
-      touchEnabled: false
+      touchEnabled: false,
+      speed: 1000
     });
 
     $("#home-slider .product-description").dotdotdot({
