@@ -1,2 +1,0 @@
-<!-- insert_after '#shop-link' -->
-<li id="gallery-link"><%= link_to t(:gallery), spree.products_path %></li>
