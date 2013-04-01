@@ -2,7 +2,6 @@ body {
   border-top: 5px solid $c_blue;  
   padding-top: 10px;
   line-height: 24px;
-  @include background(image-url("background-white-strip.png"));
   background-color: $layout_background_color;
   color: $body_text_color;
 }
