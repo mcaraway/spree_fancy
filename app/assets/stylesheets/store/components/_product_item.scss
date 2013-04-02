@@ -15,7 +15,7 @@
 
   .add-to-cart {
     float: right;
-    margin-top: 0;
+    margin-top: 50px;
 
     #add-to-cart-button {
       margin-left: 30px;  
@@ -48,11 +48,11 @@
 }
 
 #main-image {
-  border: 2px solid lighten($c_green, 30) !important;
+  border: 0px solid lighten($c_green, 30) !important;
   overflow: hidden;  
 
   &, img {
-    @include border-radius(165px);
+    @include border-radius(0px);
   }  
 
   img {

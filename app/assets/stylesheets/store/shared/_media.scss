@@ -168,7 +168,7 @@
       padding: 15px;
 
       img {
-        @include border-radius(80px !important);
+        @include border-radius(0px !important);
         padding: 10px 0 0 0;
       }
     }
@@ -370,7 +370,7 @@
       }
 
       .product-image a img {
-        @include border-radius(40px !important);
+        @include border-radius(0px !important);
       }
     }
 
