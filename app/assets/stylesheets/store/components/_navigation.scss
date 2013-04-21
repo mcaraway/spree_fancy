@@ -138,7 +138,7 @@ nav #main-nav-bar, nav#top-nav-bar {
       font-weight: 600 !important;
 
       &:hover, &.active {
-        color: $c_green !important;
+        color: $c_orange !important;
       }   
     }
 
@@ -147,7 +147,7 @@ nav #main-nav-bar, nav#top-nav-bar {
         color: $c_green;
 
         &:hover {
-          color: darken($c_green, 5);
+          color: darken($c_orange, 5);
         }
       }
     }
