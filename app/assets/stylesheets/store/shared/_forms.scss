@@ -61,7 +61,7 @@ label.ui-button {
   margin-bottom: 10px;
   font-size: 12px;
   background-image: none;    
-  color: $c_blue;
+  color: lighten($c_blue, 20);
 
   &:hover {
     background-color: $c_blue;
